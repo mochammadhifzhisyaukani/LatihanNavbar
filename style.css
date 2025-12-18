@@ -1,12 +1,13 @@
-.navbar {
+
+			.navbar {
 				position: flex;
 				top: 0;
 				width: 100%;
 				height: 60px;
-				background: #222;
+				background: #213448;
 				color: white;
 				display: flex;
-				align-item: center;
+				align-items: center;
 				padding: 0 25px;
 				box-sizing: border-box;
 				z-index: 1000;
@@ -17,7 +18,13 @@
 				list-style: none;
 				display: flex;
 				gap: 25px;
-				margin-right: auto;
+				margin-right: end;
+			}
+			
+			.nav-links a {
+				background-color: white;
+				padding: 7px;
+				border-radius: 5px;	
 			}
 			
 			.nav-links li a {
@@ -25,10 +32,25 @@
 				text-decoration: none;
 				font-size: 16px;
 				transition: 0.3s;
+				margin-right: auto;
+				background-color: white;
+				color: #213448;
+				padding: 10px 20px;
+				text-decoration: none;
+				font-weight: bold;
+				border-radius: 5px;
 			}
 			
+			.nav-links li a:hover {
+				background-color: #7298C0;
+				color: white;
+			}
+			
+			
+			
+			
 			#content{
-				padding: 80px 20px;
+				padding: 100px 20px;
 			}
 			
 			.logo {
@@ -37,10 +59,46 @@
 				padding: 20px;
 				font-size: 20px;
 				font-weight: bold;
-				text-shadow: 0 0 7px purple, 0 0 10px purple, 0 0 21px purple	;
+				text-shadow: 0 0 7px rgb(4, 0, 5), 0 0 10px rgb(4, 0, 5), 0 0 21px rgb(4, 0, 5);
 			}
 			
 			.logo a {
 				text-decoration: none;
 				color: white;
+				background-color: white;
+				padding: 7px;
+				border-radius: 15px;
+			}
+			
+			section {
+				background: linear-gradient(to bottom, #547792, #94B4C1);
+				color: white;
+				text-align: center;
+				padding: 60px 20px; /* 60 atas bawah 20 kanan kiri */
+			}
+
+			#content h1 {
+				font-size: 70px;
+				margin-bottom: 20px;
+			}
+
+			#content p {
+				font-size: 20px;
+				margin-bottom: 30px;
+			}
+			
+			.link-hero {
+				background-color: white;
+				color: #213448;
+				padding: 10x 20px;
+				text-decoration: none;
+				border-radius: 5px;
+				font-weight: bold;
+				padding:10px;
+			}
+			
+			.link-hero:hover {
+				background-color: #7298C0;
+				color: white;
+				transition: 0.3s;
 			}
