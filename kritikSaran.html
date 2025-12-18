@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+	
+	<style>
+	
+		
+
+		.card {
+			width: 500px;
+			border: 1px solid gray;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			background-color: white;
+			overflow: hidden;
+			margin: 1px;
+			text-align: center;
+			border-radius: 10px;
+			justify-items: center;
+			}
+			
+		.card-input {
+			width: 100%;
+			max-width: 300px;
+			padding: 12px 12px;
+			margin: 8px 0;
+
+			/* membuat garis */
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			font-size: 16px;
+
+			/* transisi halus */
+			transition: all 0.3s ease-in-out;
+			outline: none;
+		}
+		
+		.card-btn {
+			background-color: #007bff;
+			border: none;
+			border-radius: 10px;
+			padding: 10px 20px;
+			color:white;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		
+		.kritik {
+				justify-items: center;
+				display: flex;
+				gap: 50px;
+				justify-content: center;
+				
+			}
+		
+	
+	</style>
+</head>
+<body>
+    <nav class="navbar">
+		<div class="logo">
+			<a href="https://mochammadhifzhisyaukani.github.io/webProfil/">Hz</a>
+		</div>
+			<ul class="nav-links">
+				<li><a href="index.html">Beranda</a></li>
+				<li><a href="https://mochammadhifzhisyaukani.github.io/webProfil/">Profil</a></li>
+				<li><a href="#">Kontak</a></li>
+				<li><a href="guestPage.html">Buku Tamu</a></li>
+			</ul>
+		</nav>
+		<center>
+		<h2>Kritik & Saran</h2>
+		</center>
+		<div class="kritik">
+
+        <div class="card">
+				<input type="text" placeholder="Nama anda" class="card-input">
+				<input type="text" placeholder="Email anda" class="card-input">
+				<input type="number" placeholder="Nomor telephone anda" class="card-input">
+				<textarea type="text" placeholder="Saran" class="card-input"></textarea><br>
+
+                <button class="card-btn">
+					kirim
+				</button>
+        </div>
+		</div>
+</body>
+</html>
